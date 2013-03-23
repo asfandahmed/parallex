@@ -6,4 +6,10 @@ class DefaultController extends Controller
 	{
 		$this->render('index');
 	}
+	/* for changing theme in admin panel by asfand*/
+	public function init()
+	{
+		Yii::app()->theme = 'classic';
+		Yii::app()->name = 'Administration panel';
+	}
 }

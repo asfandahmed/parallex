@@ -1,11 +1,972 @@
-2013/03/21 17:25:42 [error] [exception.CException] exception 'CException' with message 'Property "CUrlManager.scriptName" is not defined.' in /var/www/parallex/framework/base/CComponent.php:173
+2013/03/21 22:01:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
 Stack trace:
-#0 /var/www/parallex/framework/YiiBase.php(220): CComponent->__set('scriptName', false)
-#1 /var/www/parallex/framework/base/CModule.php(386): YiiBase::createComponent(Array)
-#2 /var/www/parallex/framework/base/CApplication.php(510): CModule->getComponent('urlManager')
-#3 /var/www/parallex/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
-#4 /var/www/parallex/framework/base/CApplication.php(169): CWebApplication->processRequest()
-#5 /var/www/parallex/paral/index.php(13): CApplication->run()
-#6 {main}
-REQUEST_URI=/parallex/paral/
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/21 22:01:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "views/contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('views/contentTy...')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=views/contentType
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/22 19:36:54 [error] [php] include(ContentType.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii-1.1.13.e9e4a0\framework\YiiBase.php:421)
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\db\ar\CActiveRecord.php(386): spl_autoload_call()
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CActiveDataProvider.php(74): model()
+#2 C:\wamp\www\parallex\protected\controllers\ContentTypeController.php(125): CActiveDataProvider->__construct()
+#3 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\actions\CInlineAction.php(49): ContentTypeController->actionIndex()
+#4 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(133): ContentTypeController->runAction()
+#6 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CInlineFilter.php(58): ContentTypeController->filterAccessControl()
+#9 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CController.php(265): ContentTypeController->runActionWithFilters()
+#12 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(282): ContentTypeController->run()
+#13 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#15 C:\wamp\www\parallex\index.php(13): CWebApplication->run()
+REQUEST_URI=/parallex/index.php?r=contentType
+in C:\wamp\www\parallex\protected\controllers\ContentTypeController.php (125)
+in C:\wamp\www\parallex\index.php (13)
+2013/03/22 19:37:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/content".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=admin/content
+---
+2013/03/22 19:38:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=admin/content
+---
+2013/03/22 19:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "content".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('content')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=content
+HTTP_REFERER=http://localhost/parallex/index.php?r=comment
+---
+2013/03/22 19:38:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('contentType')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=contentType
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:38:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('contentType')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=contentType
+HTTP_REFERER=http://localhost/parallex/index.php?r=contentType
+---
+2013/03/22 19:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "content".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('content')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=content
+HTTP_REFERER=http://localhost/parallex/index.php?r=contentType
+---
+2013/03/22 19:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:38:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "content".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('content')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=content
+HTTP_REFERER=http://localhost/parallex/index.php?r=contentType
+---
+2013/03/22 19:38:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('contentType')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=contentType
+HTTP_REFERER=http://localhost/parallex/index.php?r=contentType
+---
+2013/03/22 19:38:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "content".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('content')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=content
+HTTP_REFERER=http://localhost/parallex/index.php?r=comment
+---
+2013/03/22 19:38:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=admin/content
+---
+2013/03/22 19:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('contentType')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=contentType
+HTTP_REFERER=http://localhost/parallex/index.php?r=site/contact
+---
+2013/03/22 19:39:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "content".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('content')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=content
+HTTP_REFERER=http://localhost/parallex/index.php?r=contentType
+---
+2013/03/22 19:39:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 19:40:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('contentType')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=contentType
+HTTP_REFERER=http://localhost/parallex/index.php?r=comment
+---
+2013/03/22 19:40:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "content".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('content')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=content
+HTTP_REFERER=http://localhost/parallex/index.php?r=contentType
+---
+2013/03/22 20:04:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('contentType')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=contentType
+HTTP_REFERER=http://localhost/parallex/index.php?r=site/contact
+---
+2013/03/22 20:10:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "comment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('comment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=comment
+HTTP_REFERER=http://localhost/parallex/index.php?r=admin/content
+---
+2013/03/22 20:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "content".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('content')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=content
+HTTP_REFERER=http://localhost/parallex/index.php?r=comment
+---
+2013/03/22 20:10:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contentType".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('contentType')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=contentType
+HTTP_REFERER=http://localhost/parallex/index.php?r=content
+---
+2013/03/22 20:51:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/coment".' in C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\yii-1.1.13.e9e4a0\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/coment')
+#1 C:\wamp\www\yii-1.1.13.e9e4a0\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=admin/coment
+---
+2013/03/23 17:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/content".' in C:\wamp\www\parallex\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content')
+#1 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/index.php?r=admin/content
+---
+2013/03/23 17:21:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/content".' in C:\wamp\www\parallex\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content')
+#1 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/?r=admin/content
+---
+2013/03/23 17:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/content".' in C:\wamp\www\parallex\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/content')
+#1 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/?r=admin/content
+---
+2013/03/23 17:22:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/Content".' in C:\wamp\www\parallex\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Content')
+#1 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/?r=admin/Content
+---
+2013/03/23 17:22:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/Content/index".' in C:\wamp\www\parallex\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Content/i...')
+#1 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/?r=admin/Content/index
+---
+2013/03/23 17:22:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/Content/index".' in C:\wamp\www\parallex\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/Content/i...')
+#1 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/parallex/?r=admin/Content/index
+---
+2013/03/23 18:48:32 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(32): CController->render('index')
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/
+---
+2013/03/23 18:49:24 [error] [php] include_once(fb-js-sdk.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\wamp\www\parallex\protected\views\site\index.php:190)
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\wamp\www\parallex\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\wamp\www\parallex\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\wamp\www\parallex\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\parallex\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\parallex\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\parallex\index.php(13): CWebApplication->run()
+REQUEST_URI=/parallex/
+in C:\wamp\www\parallex\protected\views\site\index.php (190)
+in C:\wamp\www\parallex\protected\views\site\index.php (190)
+in C:\wamp\www\parallex\protected\controllers\SiteController.php (32)
+2013/03/23 18:50:18 [error] [php] include_once(static.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\wamp\www\parallex\protected\views\site\index.php:281)
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\wamp\www\parallex\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\wamp\www\parallex\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\wamp\www\parallex\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\parallex\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\parallex\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\parallex\index.php(13): CWebApplication->run()
+REQUEST_URI=/parallex/
+in C:\wamp\www\parallex\protected\views\site\index.php (281)
+in C:\wamp\www\parallex\protected\views\site\index.php (281)
+in C:\wamp\www\parallex\protected\controllers\SiteController.php (32)
+2013/03/23 18:50:39 [error] [php] include_once(static/music.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\wamp\www\parallex\protected\views\site\static.php:3)
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CBaseController.php(126): require()
+#1 C:\wamp\www\parallex\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\wamp\www\parallex\framework\web\CController.php(869): SiteController->renderFile()
+#3 C:\wamp\www\parallex\framework\web\CController.php(782): SiteController->renderPartial()
+#4 C:\wamp\www\parallex\protected\controllers\SiteController.php(32): SiteController->render()
+#5 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\parallex\framework\web\CController.php(286): SiteController->runAction()
+#8 C:\wamp\www\parallex\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): SiteController->run()
+#10 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\parallex\index.php(13): CWebApplication->run()
+REQUEST_URI=/parallex/
+in C:\wamp\www\parallex\protected\views\site\static.php (3)
+in C:\wamp\www\parallex\protected\views\site\static.php (3)
+in C:\wamp\www\parallex\protected\views\site\index.php (281)
+2013/03/23 18:51:47 [error] [php] include_once(hidden.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\wamp\www\parallex\protected\views\site\index.php:286)
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\wamp\www\parallex\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\wamp\www\parallex\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\wamp\www\parallex\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\parallex\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\parallex\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\parallex\index.php(13): CWebApplication->run()
+REQUEST_URI=/parallex/
+in C:\wamp\www\parallex\protected\views\site\index.php (286)
+in C:\wamp\www\parallex\protected\views\site\index.php (286)
+in C:\wamp\www\parallex\protected\controllers\SiteController.php (32)
+2013/03/23 18:52:03 [error] [php] include_once(hidden/video_gallery.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\wamp\www\parallex\protected\views\site\hidden.php:2)
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CBaseController.php(126): require()
+#1 C:\wamp\www\parallex\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#2 C:\wamp\www\parallex\framework\web\CController.php(869): SiteController->renderFile()
+#3 C:\wamp\www\parallex\framework\web\CController.php(782): SiteController->renderPartial()
+#4 C:\wamp\www\parallex\protected\controllers\SiteController.php(32): SiteController->render()
+#5 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 C:\wamp\www\parallex\framework\web\CController.php(286): SiteController->runAction()
+#8 C:\wamp\www\parallex\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): SiteController->run()
+#10 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#12 C:\wamp\www\parallex\index.php(13): CWebApplication->run()
+REQUEST_URI=/parallex/
+in C:\wamp\www\parallex\protected\views\site\hidden.php (2)
+in C:\wamp\www\parallex\protected\views\site\hidden.php (2)
+in C:\wamp\www\parallex\protected\views\site\index.php (286)
+2013/03/23 18:53:27 [error] [php] include_once(pages.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory (C:\wamp\www\parallex\protected\views\site\index.php:414)
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#1 C:\wamp\www\parallex\framework\web\CController.php(869): SiteController->renderFile()
+#2 C:\wamp\www\parallex\framework\web\CController.php(782): SiteController->renderPartial()
+#3 C:\wamp\www\parallex\protected\controllers\SiteController.php(32): SiteController->render()
+#4 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#5 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\wamp\www\parallex\framework\web\CController.php(286): SiteController->runAction()
+#7 C:\wamp\www\parallex\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#8 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): SiteController->run()
+#9 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#11 C:\wamp\www\parallex\index.php(13): CWebApplication->run()
+REQUEST_URI=/parallex/
+in C:\wamp\www\parallex\protected\views\site\index.php (414)
+in C:\wamp\www\parallex\protected\views\site\index.php (414)
+in C:\wamp\www\parallex\protected\controllers\SiteController.php (32)
+2013/03/23 18:55:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in C:\wamp\www\parallex\framework\web\actions\CViewAction.php:112
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\actions\CViewAction.php(123): CViewAction->resolveView('about')
+#1 C:\wamp\www\parallex\framework\web\actions\CAction.php(76): CViewAction->run()
+#2 C:\wamp\www\parallex\framework\web\CController.php(308): CAction->runWithParams(Array)
+#3 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CViewAction))
+#4 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('page')
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page')
+#7 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/parallex/?r=site/page&view=about
+HTTP_REFERER=http://localhost/parallex/
+---
+2013/03/23 19:30:18 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "request".' in C:\wamp\www\parallex\framework\base\CComponent.php:265
+Stack trace:
+#0 [internal function]: CComponent->__call('request', Array)
+#1 C:\wamp\www\parallex\protected\views\site\index.php(36): CWebApplication->request()
+#2 C:\wamp\www\parallex\framework\web\CBaseController.php(126): require('C:\wamp\www\par...')
+#3 C:\wamp\www\parallex\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\wamp\www\par...', NULL, true)
+#4 C:\wamp\www\parallex\framework\web\CController.php(869): CBaseController->renderFile('C:\wamp\www\par...', NULL, true)
+#5 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#6 C:\wamp\www\parallex\protected\controllers\SiteController.php(32): CController->render('index')
+#7 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#13 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#14 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/parallex/
+---
+2013/03/23 22:02:10 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.title" is not defined.' in C:\wamp\www\parallex\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\wamp\www\parallex\protected\modules\admin\controllers\ConfigController.php(24): CComponent->__set('title', 'admin panel')
+#1 C:\wamp\www\parallex\framework\web\CWebApplication.php(281): ConfigController->init()
+#2 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/config')
+#3 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/parallex/index.php?r=admin/config
+---
+2013/03/23 22:18:08 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/comment
+---
+2013/03/23 22:19:57 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:26 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:27 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:27 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:27 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:27 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:27 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:28 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:28 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:20:28 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
+---
+2013/03/23 22:32:12 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(36): CController->render('index')
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/
+---
+2013/03/23 22:32:53 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(36): CController->render('index')
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/index.php
+---
+2013/03/23 22:35:58 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "login".' in C:\wamp\www\parallex\framework\web\CController.php:878
+Stack trace:
+#0 C:\wamp\www\parallex\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 C:\wamp\www\parallex\protected\controllers\SiteController.php(102): CController->render('login', Array)
+#2 C:\wamp\www\parallex\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#3 C:\wamp\www\parallex\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\parallex\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\parallex\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\parallex\framework\web\CWebApplication.php(282): CController->run('login')
+#7 C:\wamp\www\parallex\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#8 C:\wamp\www\parallex\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#9 C:\wamp\www\parallex\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/parallex/?r=site/login
+HTTP_REFERER=http://localhost/parallex/?r=admin/image
 ---

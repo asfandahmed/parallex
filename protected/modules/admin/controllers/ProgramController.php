@@ -18,7 +18,12 @@ class ProgramController extends Controller
 			'postOnly + delete', // we only allow deletion via POST request
 		);
 	}
-
+	/* for using a different theme in admin module by asfand*/
+	public function init(){
+		Yii::app()->theme = 'classic';
+		Yii::app()->name = 'Administration panel';
+		parent::init();
+	}
 	/**
 	 * Specifies the access control rules.
 	 * This method is used by the 'accessControl' filter.

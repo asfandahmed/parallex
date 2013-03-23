@@ -20,7 +20,11 @@ class SiteController extends Controller
 			),
 		);
 	}
-
+	/* for changing theme in admin panel by asfand*/
+	public function init()
+	{
+		Yii::app()->theme = 'customized';
+	}
 	/**
 	 * This is the default 'index' action that is invoked
 	 * when an action is not explicitly requested by users.
@@ -28,37 +32,8 @@ class SiteController extends Controller
 	public function actionIndex()
 	{
 		// renders the view file 'protected/views/site/index.php'
-		$this->layout = "//layouts/columnParallax";
-		$data = array(
-			"fbJsSdk" => $this->renderPartial("fb-js-sdk", null, true),
-			"static" => array(
-				"music" => $this->renderPartial("static/music", null, true),
-				"drama" => $this->renderPartial("static/drama", null, true),
-				"shows" => $this->renderPartial("static/shows", null, true),
-				"schedule" => $this->renderPartial("static/schedule", null, true),
-				"live" => $this->renderPartial("static/live", null, true),
-				"mobile" => $this->renderPartial("static/mobile", null, true)
-			),
-			"hidden" => array(
-				"video_gallery" => $this->renderPartial("hidden/video_gallery", null, true),
-				"music_gallery" => $this->renderPartial("hidden/music_gallery", null, true),
-				"advertise" => $this->renderPartial("hidden/advertise", null, true),
-				"video_submission" => $this->renderPartial("hidden/video_submission", null, true),
-				"contact" => $this->renderPartial("hidden/contact", null, true),
-				"career" => $this->renderPartial("hidden/career", null, true)
-			),
-			"pages" => array(
-				"home"  => $this->renderPartial("pages/home", null, true),
-				"login" => $this->renderPartial("pages/login", null, true),
-				"register" => $this->renderPartial("pages/register", null, true)
-			)
-		);
-
-		$this->render('index', $data);
-	}
-
-	public function actionFbChannel(){
-		$this->render("channel");
+		// using the default layout 'protected/views/layouts/main.php'
+		$this->render('index');
 	}
 
 	/**
@@ -107,7 +82,8 @@ class SiteController extends Controller
 	public function actionLogin()
 	{
 		$model=new LoginForm;
-
+		/*following line added by asfand*/
+		Yii::app()->theme = 'classic';
 		// if it is ajax validation request
 		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
 		{

@@ -2,6 +2,7 @@
 
 class AdminModule extends CWebModule
 {
+	public $layout='//layouts/column2';
 	public function init()
 	{
 		// this method is called when the module is being created
@@ -12,6 +13,7 @@ class AdminModule extends CWebModule
 			'admin.models.*',
 			'admin.components.*',
 		));
+		Yii::app()->theme = 'customized';
 	}
 
 	public function beforeControllerAction($controller, $action)

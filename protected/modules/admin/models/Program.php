@@ -47,6 +47,7 @@ class Program extends CActiveRecord
 			array('imageId, status', 'numerical', 'integerOnly'=>true),
 			array('name', 'length', 'max'=>255),
 			array('type, upVotes, downVotes', 'length', 'max'=>10),
+			array('url', 'url'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, name, url, description, imageId, timing, status, type, upVotes, downVotes', 'safe', 'on'=>'search'),
